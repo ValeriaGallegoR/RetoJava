@@ -3,7 +3,7 @@ package controlador;
 import modelo.*;
 
 import modelo.ProductoIVA;
-
+import modelo.MenuOpciones;
 
 import java.util.Scanner;
 
@@ -25,6 +25,7 @@ public class Main {
         System.out.println("12. Indicar si dos palabras son iguales, si no mostrar diferencias");
         System.out.println("13. Consultar la fecha y hora actuales en formato (AAAA/MM/DD) (HH:MM:SS)");
         System.out.println("14. Imprimir números de dos en dos desde número ingresado hasta 1000");
+        System.out.println("15. Menú de opciones de gestión cinematográfica ");
     }
 
     public static void main(String[] args) {
@@ -34,6 +35,8 @@ public class Main {
         EsLaboral semana = new EsLaboral();
         OpFrases frases = new OpFrases();
         FechaHora fechaHora = new FechaHora();
+        MenuOpciones menuOpciones = new MenuOpciones();
+
         Scanner teclado = new Scanner(System.in);
 
             menu();
@@ -83,11 +86,14 @@ public class Main {
                     case 14:
                         numeros.numDosenDos();
                         break;
+                    case 15:
+                        menuOpciones.llamarMenu();
+                        break;
                     default:
                         System.out.println("Incorrecta");
                 }
             } else {
                 System.out.println("Opcion incorrecta");
             }
-        }
+    }
 }
