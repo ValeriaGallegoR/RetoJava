@@ -21,6 +21,8 @@ public class Main {
         System.out.println("8.");
         System.out.println("9. Cambiar las letras de una frase y añadirle otra ");
         System.out.println("10. Eliminar espacios de una frase u oración ");
+        System.out.println("11. Longitud y numero de vocales de una frase ");
+        System.out.println("12. Indicar si dos palabras son iguales, si no mostrar diferencias");
     }
 
     public static void main(String[] args) {
@@ -29,6 +31,7 @@ public class Main {
         ProductoIVA producto = new ProductoIVA();
         EsLaboral semana = new EsLaboral();
         OpFrases frases = new OpFrases();
+        FechaHora fechaHora = new FechaHora();
         Scanner teclado = new Scanner(System.in);
 
             menu();
@@ -65,6 +68,12 @@ public class Main {
                         break;
                     case 10:
                         frases.eliminarEspacios();
+                        break;
+                    case 11:
+                        frases.longitudVocales();
+                        break;
+                    case 12:
+                        frases.compararPalabras();
                         break;
                     default:
                         System.out.println("Incorrecta");
