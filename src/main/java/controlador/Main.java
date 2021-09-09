@@ -1,11 +1,7 @@
 package controlador;
 
-import modelo.Figura;
+import modelo.*;
 
-import modelo.OpNumeros;
-import modelo.ProductoIVA;
-import modelo.EsLaboral;
-import modelo.Numeros;
 import modelo.ProductoIVA;
 
 
@@ -15,12 +11,16 @@ public class Main {
 
     public static void menu() {
         System.out.println("Ingrese una de las siguientes opciones: ");
-        System.out.println("1. Numero mayor entre dos variables     ");
-        System.out.println("2. Obtener el area de un circulo        ");
-        System.out.println("3. Obtener el precio del producto con iva ");
-
-        System.out.println("4. Obtener los números pares e impares del 1-100");
-        System.out.println("5. Obtener si un dia es laboral o festivo ");
+        System.out.println("1. Numero mayor entre dos variables delaradas -10 y -1");
+        System.out.println("2. Numero mayor entre dos variables     ");
+        System.out.println("3. Obtener el area de un circulo        ");
+        System.out.println("4. Obtener el precio del producto con iva ");
+        System.out.println("5. Obtener los números pares e impares del 1-100 ciclo while");
+        System.out.println("6. Obtener los números pares e impares del 1-100 ciclo for");
+        System.out.println("7. Obtener si un dia es laboral o festivo ");
+        System.out.println("8.");
+        System.out.println("9. Cambiar las letras de una frase y añadirle otra ");
+        System.out.println("10. Eliminar espacios de una frase u oración ");
     }
 
     public static void main(String[] args) {
@@ -28,6 +28,7 @@ public class Main {
         Figura circulo = new Figura();
         ProductoIVA producto = new ProductoIVA();
         EsLaboral semana = new EsLaboral();
+        OpFrases frases = new OpFrases();
         Scanner teclado = new Scanner(System.in);
 
             menu();
@@ -36,19 +37,34 @@ public class Main {
                 // switch case
                 switch (opcion) {
                     case 1:
-                        numeros.obtenerNumMayor();
+                        numeros.obtenerNumMayor1();
                         break;
                     case 2:
-                        circulo.obtenerAreaCirculo();
+                        numeros.obtenerNumMayor2();
                         break;
                     case 3:
-                        producto.obtenerPrecioproducto();
+                        circulo.obtenerAreaCirculo();
                         break;
                     case 4:
-                        numeros.obtenerParImpar();
+                        producto.obtenerPrecioproducto();
                         break;
                     case 5:
+                        numeros.obtenerParImparW();
+                        break;
+                    case 6:
+                        numeros.obtenerParImparF();
+                        break;
+                    case 7:
                         semana.diaLaboral();
+                        break;
+                    case 8:
+                        numeros.Mayor_cero();
+                        break;
+                    case 9:
+                        frases.cambiarLetras();
+                        break;
+                    case 10:
+                        frases.eliminarEspacios();
                         break;
                     default:
                         System.out.println("Incorrecta");

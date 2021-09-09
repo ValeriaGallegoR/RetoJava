@@ -22,7 +22,17 @@ public class OpNumeros {
         return num2;
     }
 
-    public void obtenerNumMayor() {
+    public void obtenerNumMayor1(){
+        num1 = -1;
+        num2 = -10;
+        if (num1 == num2) {
+            System.out.println("Los números son iguales ");
+        } else {
+            System.out.println("El mayor de los dos números es " + Math.max(num1, num2));
+        }
+    }
+
+    public void obtenerNumMayor2() {
         num1 = this.getNum1();
         num2 = this.getNum2();
         if (num1 == num2) {
@@ -31,8 +41,20 @@ public class OpNumeros {
             System.out.println("El mayor de los dos números es " + Math.max(num1, num2));
         }
     }
+    public void obtenerParImparW() {
+        this.limite = 100;
+        this.num = 1;
+        while (num <= 100) {
+            if (num % 2 == 0) {
+                System.out.println("Par: " + num);
+            } else {
+                System.out.println("Impar: " + num);
+            }
+            num++;
+        }
+    }
 
-    public void obtenerParImpar() {
+    public void obtenerParImparF() {
 
         this.limite = 100;
 
@@ -43,16 +65,14 @@ public class OpNumeros {
                 System.out.println("Impar: " + num);
             }
         }
-        /*
-        this.num = 1;
-        while (num <= 100) {
-            if (num % 2 == 0) {
-                System.out.println("Par: " + num);
-            } else {
-                System.out.println("Impar: " + num);
-            }
-            num++;
-        }*/
+    }
+
+    public void Mayor_cero() {
+        num1 = this.getNum1();
+        do {
+            //System.out.println(num1);
+            this.getNum1();
+        } while (num1 > 0);
     }
 }
 
