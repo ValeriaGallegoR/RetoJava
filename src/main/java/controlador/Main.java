@@ -1,9 +1,13 @@
 package controlador;
 
 import modelo.Figura;
+
 import modelo.OpNumeros;
 import modelo.ProductoIVA;
 import modelo.EsLaboral;
+import modelo.Numeros;
+import modelo.ProductoIVA;
+
 
 import java.util.Scanner;
 
@@ -14,6 +18,7 @@ public class Main {
         System.out.println("1. Numero mayor entre dos variables     ");
         System.out.println("2. Obtener el area de un circulo        ");
         System.out.println("3. Obtener el precio del producto con iva ");
+
         System.out.println("4. Obtener los números pares e impares del 1-100");
         System.out.println("5. Obtener si un dia es laboral o festivo ");
     }
