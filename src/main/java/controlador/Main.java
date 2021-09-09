@@ -23,6 +23,8 @@ public class Main {
         System.out.println("10. Eliminar espacios de una frase u oración ");
         System.out.println("11. Longitud y numero de vocales de una frase ");
         System.out.println("12. Indicar si dos palabras son iguales, si no mostrar diferencias");
+        System.out.println("13. Consultar la fecha y hora actuales en formato (AAAA/MM/DD) (HH:MM:SS)");
+        System.out.println("14. Imprimir números de dos en dos desde número ingresado hasta 1000");
     }
 
     public static void main(String[] args) {
@@ -61,7 +63,7 @@ public class Main {
                         semana.diaLaboral();
                         break;
                     case 8:
-                        numeros.Mayor_cero();
+                        numeros.mayor_cero();
                         break;
                     case 9:
                         frases.cambiarLetras();
@@ -74,6 +76,12 @@ public class Main {
                         break;
                     case 12:
                         frases.compararPalabras();
+                        break;
+                    case 13:
+                        fechaHora.fechaHoraActual();
+                        break;
+                    case 14:
+                        numeros.numDosenDos();
                         break;
                     default:
                         System.out.println("Incorrecta");

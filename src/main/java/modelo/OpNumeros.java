@@ -67,12 +67,22 @@ public class OpNumeros {
         }
     }
 
-    public void Mayor_cero() {
+    public void mayor_cero() {
         num1 = this.getNum1();
         do {
             //System.out.println(num1);
             this.getNum1();
         } while (num1 > 0);
     }
+
+    public void numDosenDos (){
+        this.limite = 1000;
+        double a = getNum1();
+        while(a < this.limite){
+            a = a +2;
+            System.out.println(a);
+        }
+    }
 }
+
 
