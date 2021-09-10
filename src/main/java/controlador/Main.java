@@ -18,7 +18,7 @@ public class Main {
         System.out.println("5. Obtener los números pares e impares del 1-100 ciclo while");
         System.out.println("6. Obtener los números pares e impares del 1-100 ciclo for");
         System.out.println("7. Obtener si un dia es laboral o festivo ");
-        System.out.println("8.");
+        System.out.println("8. ");
         System.out.println("9. Cambiar las letras de una frase y añadirle otra ");
         System.out.println("10. Eliminar espacios de una frase u oración ");
         System.out.println("11. Longitud y numero de vocales de una frase ");
@@ -26,6 +26,7 @@ public class Main {
         System.out.println("13. Consultar la fecha y hora actuales en formato (AAAA/MM/DD) (HH:MM:SS)");
         System.out.println("14. Imprimir números de dos en dos desde número ingresado hasta 1000");
         System.out.println("15. Menú de opciones de gestión cinematográfica ");
+        System.out.println("16. Ejercicio 16 que calucla el MVC de las personas ");
     }
 
     public static void main(String[] args) {
@@ -36,6 +37,7 @@ public class Main {
         OpFrases frases = new OpFrases();
         FechaHora fechaHora = new FechaHora();
         MenuOpciones menuOpciones = new MenuOpciones();
+        ServiciosPersona serviciosPersona = new ServiciosPersona();
 
         Scanner teclado = new Scanner(System.in);
 
@@ -66,7 +68,7 @@ public class Main {
                         semana.diaLaboral();
                         break;
                     case 8:
-                        numeros.mayor_cero();
+
                         break;
                     case 9:
                         frases.cambiarLetras();
@@ -88,6 +90,9 @@ public class Main {
                         break;
                     case 15:
                         menuOpciones.llamarMenu();
+                        break;
+                    case 16:
+                        serviciosPersona.ConsultarEjercicio16();
                         break;
                     default:
                         System.out.println("Incorrecta");
