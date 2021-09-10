@@ -18,7 +18,7 @@ public class Main {
         System.out.println("5. Obtener los números pares e impares del 1-100 ciclo while");
         System.out.println("6. Obtener los números pares e impares del 1-100 ciclo for");
         System.out.println("7. Obtener si un dia es laboral o festivo ");
-        System.out.println("8. ");
+        System.out.println("8. Comprueba si el numero es mayor o igual que cero ");
         System.out.println("9. Cambiar las letras de una frase y añadirle otra ");
         System.out.println("10. Eliminar espacios de una frase u oración ");
         System.out.println("11. Longitud y numero de vocales de una frase ");
@@ -68,7 +68,7 @@ public class Main {
                         semana.diaLaboral();
                         break;
                     case 8:
-
+                        numeros.mayor_cero();
                         break;
                     case 9:
                         frases.cambiarLetras();

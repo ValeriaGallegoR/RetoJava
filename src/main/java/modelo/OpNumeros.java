@@ -66,7 +66,13 @@ public class OpNumeros {
             }
         }
     }
-
+    public void mayor_cero() {
+        num1 = this.getNum1();
+        do {
+            getNum1();
+            System.out.println("Número ingresado: " + num1);
+        }while(num1 < 0);
+    }
     public void numDosenDos (){
         this.limite = 1000;
         double a = getNum1();
