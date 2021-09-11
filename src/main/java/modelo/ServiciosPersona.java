@@ -1,5 +1,7 @@
 package modelo;
 
+import modelo.Persona;
+
 import java.util.Locale;
 import java.util.Scanner;
 

@@ -4,6 +4,7 @@ import modelo.*;
 
 import modelo.ProductoIVA;
 import modelo.MenuOpciones;
+import modelo.Ejercicio18.*;
 
 import java.util.Scanner;
 
@@ -26,7 +27,8 @@ public class Main {
         System.out.println("13. Consultar la fecha y hora actuales en formato (AAAA/MM/DD) (HH:MM:SS)");
         System.out.println("14. Imprimir números de dos en dos desde número ingresado hasta 1000");
         System.out.println("15. Menú de opciones de gestión cinematográfica ");
-        System.out.println("16. Ejercicio 16 que calucla el MVC de las personas ");
+        System.out.println("16. Ejercicio 16 que calucla el IMC de las personas ");
+        System.out.println("18. Ejercicio 18 que calucla numero horas estimadas de videoJuego y Series ");
     }
 
     public static void main(String[] args) {
@@ -38,12 +40,13 @@ public class Main {
         FechaHora fechaHora = new FechaHora();
         MenuOpciones menuOpciones = new MenuOpciones();
         ServiciosPersona serviciosPersona = new ServiciosPersona();
+        ServicioVideoJuego_Serie juegoSerie = new ServicioVideoJuego_Serie();
 
         Scanner teclado = new Scanner(System.in);
 
             menu();
             int opcion = teclado.nextInt();
-            if (opcion > 0 && opcion < 18) {
+            if (opcion > 0 && opcion <= 18) {
                 // switch case
                 switch (opcion) {
                     case 1:
@@ -93,6 +96,11 @@ public class Main {
                         break;
                     case 16:
                         serviciosPersona.ConsultarEjercicio16();
+                        break;
+                    case 17:
+                        break;
+                    case 18:
+                        juegoSerie.ConsultarEjercicio18();
                         break;
                     default:
                         System.out.println("Incorrecta");

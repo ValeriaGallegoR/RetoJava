@@ -1,0 +1,7 @@
+
+t
+java:S1450"WRemove the "producto" field and declare it as a local variable in the relevant methods.(§şÁæ8ìŠõº/
+]
+java:S1117";Rename "producto" which hides the field declared at line 6.(æ…‰ğøÿÿÿÿ8ıŠõº/
+‚
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "producto".(æ…‰ğøÿÿÿÿ8Ù¥‰õº/
