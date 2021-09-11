@@ -1,0 +1,62 @@
+
+h	java:S116"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èüöšıÿÿÿÿ
+`
+java:S1124
+"EReorder the modifiers to comply with the Java Language Specification.(şè¹×ùÿÿÿÿ
+6
+java:S3010"!Remove this assignment of "sexo".(ß‘¯K
+J
+java:S2209"5Change this instance-reference to a static reference.(ß‘¯K
+6
+java:S3010"!Remove this assignment of "sexo".(ß‘¯K
+J
+java:S2209"5Change this instance-reference to a static reference.(ß‘¯K
+K
+java:S2696)"6Make the enclosing method "static" or remove this set.(ß‘¯K
+J
+java:S2209)"5Change this instance-reference to a static reference.(ß‘¯K
+M
+java:S1854Q"8Remove this useless assignment to local variable "sexo".(î¯È}
+J
+java:S1656"/Remove or correct this useless self-assignment.(´ú´Üøÿÿÿÿ
+J
+java:S1656"/Remove or correct this useless self-assignment.(ø·Óøÿÿÿÿ
+E
+java:S1656"/Remove or correct this useless self-assignment.(¬±Š 
+J
+java:S1656"/Remove or correct this useless self-assignment.(È÷§‡ûÿÿÿÿ
+J
+java:S1656"/Remove or correct this useless self-assignment.(Ì›ùğùÿÿÿÿ
+E
+java:S1656"/Remove or correct this useless self-assignment.(¬±Š 
+J
+java:S1656"/Remove or correct this useless self-assignment.(È÷§‡ûÿÿÿÿ
+J
+java:S1656"/Remove or correct this useless self-assignment.(Ì›ùğùÿÿÿÿ
+D
+java:S1656"/Remove or correct this useless self-assignment.(ß‘¯K
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÈœ¤
+s
+java:S1488c"]Immediately return this expression instead of assigning it to the temporary variable "letra".(ÂõàÍ
+O
+java:S4973N"9Use the "equals" method if value comparison was intended.(ˆÖ˜¨
+O
+java:S4973N"9Use the "equals" method if value comparison was intended.(ˆÖ˜¨
+
+java:S4165"dRemove this useless assignment; "altura" already holds the assigned value along all execution paths.(Ì›ùğùÿÿÿÿ
+
+java:S4165"dRemove this useless assignment; "nombre" already holds the assigned value along all execution paths.(´ú´Üøÿÿÿÿ
+
+java:S4165"dRemove this useless assignment; "altura" already holds the assigned value along all execution paths.(Ì›ùğùÿÿÿÿ
+w
+java:S4165"bRemove this useless assignment; "sexo" already holds the assigned value along all execution paths.(ß‘¯K
+|
+java:S4165"aRemove this useless assignment; "DNI" already holds the assigned value along all execution paths.(È÷§‡ûÿÿÿÿ
+x
+java:S4165"bRemove this useless assignment; "peso" already holds the assigned value along all execution paths.(¬±Š 
+|
+java:S4165"aRemove this useless assignment; "DNI" already holds the assigned value along all execution paths.(È÷§‡ûÿÿÿÿ
+x
+java:S4165"bRemove this useless assignment; "peso" already holds the assigned value along all execution paths.(¬±Š 
+}
+java:S4165"bRemove this useless assignment; "edad" already holds the assigned value along all execution paths.(ø·Óøÿÿÿÿ

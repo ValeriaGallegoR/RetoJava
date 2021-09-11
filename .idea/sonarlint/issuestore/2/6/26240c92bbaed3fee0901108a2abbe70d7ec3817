@@ -1,0 +1,10 @@
+
+M
+java:S1117"7Rename "num1" which hides the field declared at line 7.(Ñûº”
+R
+java:S1117"7Rename "num2" which hides the field declared at line 8.(‘üµúÿÿÿÿ
+o	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔŠ‡ñúÿÿÿÿ8®œŠğ¼/
+r
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "num1".(Ñûº”
+w
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "num2".(‘üµúÿÿÿÿ

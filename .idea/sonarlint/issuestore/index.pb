@@ -11,3 +11,11 @@ S
 #src/main/java/modelo/EsLaboral.java,f\b\fb8c39c024854e1151e7ba1ceccda0118e525015
 V
 &src/main/java/modelo/MenuOpciones.java,3\0\30e67c599f1601a34172d1c91bf1321c9adbfba7
+S
+#src/main/java/modelo/OpNumeros.java,2\6\26240c92bbaed3fee0901108a2abbe70d7ec3817
+Q
+!src/main/java/modelo/Persona.java,b\d\bd9b0f8e3fc3c8983a2bb691d70ab354c853dab0
+Z
+*src/main/java/modelo/ServiciosPersona.java,0\c\0cc4feb7d748b55f8e092354da852a294a71c2b6
+R
+"src/main/java/modelo/OpFrases.java,c\0\c02a85d9f2b49d46826cacd6e243578066b10dab
